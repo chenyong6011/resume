@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈勇 - 智能驾驶算法研发简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .core-label {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+        }
+
+        .basic-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .basic-info p {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .work-exp, .edu-exp, .project-exp, .academic-exp, .skill-exp, .honor-exp, .self-eval {
+            margin-bottom: 20px;
+        }
+
+        .exp-item {
+            margin-bottom: 15px;
+        }
+
+        .exp-header {
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 8px;
+        }
+
+        .exp-desc {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        .exp-desc li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            .resume-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <h1>陈勇 - 智能驾驶算法研发</h1>
+        <p class="core-label">核心标签：智驾大模型（评测/数据/部署）｜规控算法优化｜多车型参数适配｜华为车BU3年实战｜工学博士</p>
+
+        <!-- 基本信息 -->
+        <h2>基本信息</h2>
+        <div class="basic-info">
+            <p>籍贯：山东菏泽</p>
+            <p>联系电话：182-1059-2819</p>
+            <p>电子邮箱：chenyong6011@163.com</p>
+            <p>求职方向：智能驾驶算法研发/大模型研发/运动规划算法设计</p>
+        </div>
+
+        <!-- 教育背景 -->
+        <h2>教育背景</h2>
+        <div class="edu-exp">
+            <div class="exp-item">
+                <p class="exp-header">2018.09 – 2022.06 北京理工大学 机械工程 工学博士</p>
+            </div>
+            <div class="exp-item">
+                <p class="exp-header">2015.09 – 2018.03 北京理工大学 机械工程 工学硕士</p>
+            </div>
+            <div class="exp-item">
+                <p class="exp-header">2011.09 – 2015.06 青岛大学 机械工程 工学学士</p>
+            </div>
+        </div>
+
+        <!-- 工作经历 -->
+        <h2>工作经历</h2>
+        <div class="work-exp">
+            <h3>2023.05-2025.02 华为 车BU 算法研究与技术开发部 大模型研发工程师</h3>
+            <p style="margin-bottom: 10px;">核心职责：主导智驾大模型评测体系搭建、训练数据优化、车端部署架构设计及专用辅助大模型规控落地，推动大模型在智能驾驶场景的工程化应用与性能提升。</p>
+            <ul class="exp-desc">
+                <li>搭建智驾大模型评测体系，牵引模型能力迭代：主导Drivebench智驾大模型评测集全流程搭建及6+版本发版，打造2w+通用场景QA、1100+难例场景clips的评测数据集，覆盖140+三级能力项、50+真实现网/L3场景；设计全维度评测方案与标注规范，输出30+技术文档，完成QwenDrive、开源智驾等多款模型的全维度评测对比，为模型迭代提供核心依据。</li>
+                <li>优化训练数据生产体系，提升模型训练效果：协同多部门搭建白盒/大模型打标/混合产线三位一体数据生产管线，制定统一格式与质检规范，累计产出153w+感知决策同源重点场景clips；将长短停数据质量从46%提升至<span class="highlight">91%</span>、复杂牌决策数据正确率从65%提升至<span class="highlight">95%</span>，完成恶劣路况/事故车/施工场景11w/13w/45w clips生产；基于优化数据训练的PanguDrive-Vxx模型，重点场景评测分数达80+，远超Qwen3-VL-8B-Instruct的60分。</li>
+                <li>统一车端部署架构，搭建仿真闭环系统提效降本：设计双系统模型车端部署方案，完成控车/专用辅助大模型统一部署与多版本适配，开发VLA节点、HMI可视化等核心功能；搭建端到端仿真系统与Checker方案，将事件上报准确率从61%提升至<span class="highlight">95%</span>，设计多维评测体系，打通全流程自动化，将研发闭环周期从3周压缩至<span class="highlight">3天</span>，大幅降低人力成本。</li>
+                <li>推动专用辅助大模型规控落地，实现核心场景性能突破：牵头ADS 3.0端到端模型模态启发接入模式统一，完成脱困、VRU手势等场景C++特性开发与车端部署；采集清洗13.1k clips场景数据，闭环车端问题30+，落地5+典型收益场景，贡献11k有效代码，在Cutin、导航等5大场景实现性能显著提升；优化大模型横纵向轨迹Smoother，2024年实现复杂城区路线MPI达7+，组织68次测试任务，闭环50+道路测试问题，将人工接管次数降低<span class="highlight">33%</span>。</li>
+            </ul>
+
+            <h3>2022.10-2024.05 华为 车BU 算法策略开发部 运动规划算法工程师</h3>
+            <p style="margin-bottom: 10px;">核心职责：主导ADS2.0/3.0运动规划算法优化、多车型参数适配及泊车代驾技术落地，负责驾驶风格预研与专利布局，支撑多款鸿蒙智行车型商用发布。</p>
+            <ul class="exp-desc">
+                <li>攻克拥堵小GAP换道技术，提升ADS3.0核心竞争力：主导拥堵/小GAP换道场景特性开发，组织50+路测，闭环1500+问题，将汇入GAP最小间隙从10m缩减至<span class="highlight">5m</span>，拥堵换道成功率提升至65%；优化换道纵向规划算法，将目标车道有车场景变道成功率从79.7%提升至<span class="highlight">84.9%</span>，降低后车压迫感。</li>
+                <li>全场景优化纵向运动规划，提升ADS2.0体验品质：牵引SMOP全场景联合优化，完成模型归一与动态参数机制优化，提升多场景算法泛化性；实现路口通过率+<span class="highlight">5%</span>、重杀率-<span class="highlight">5%</span>（0.2g）、横向加速度-<span class="highlight">30%</span>，舒适性较基线提升20%。</li>
+                <li>落地泊车代驾核心技术，支撑产品重磅发布：牵头VPD/AVP纵向运动规划特性开发，完成10+核心特性交付，闭环20+问题；支撑智界S7泊车代驾太古里媒体演示与商用发布会，助力发布会全网播放过亿；将泊车代驾早高峰期成功率从67%提升至<span class="highlight">92%</span>，非高峰期达<span class="highlight">99.99%</span>，保持行业领先。</li>
+                <li>完成个性化驾驶技术预研与落地，奠定ADS4.0数据基础：牵头驾驶风格预研项目，协调多模块完成三档驾驶风格开发调试，75%驾驶员/100%乘客可准确区分，完成DRB结项；开发人驾数据挖掘算法与风格参数辨识方法，曲率限速识别偏差≤<span class="highlight">2km/h</span>，前车跟停距离误差≤<span class="highlight">0.3米</span>。</li>
+                <li>主导多车型参数适配，保障15+车型高质量商用：牵头乾崑智驾ADS多车型运动规划参数适配调优，覆盖问界、智界、岚图等15+新款/改款车型，保障按时QG过点；组织255+路测，闭环612+问题，搭建半实物仿真系统；将全档位拥堵跟车时距从0.8s降至<span class="highlight">0.6s</span>、刹停距离从4m降至<span class="highlight">2.5m</span>，大幅提升低速拥堵体验。</li>
+                <li>推动核心专利布局，实现技术知识产权转化：牵引运动规划领域专利申请，2周内推动3项核心专利通过评审，涵盖AVP/VPD脱困临停、拥堵换道等关键技术，完成核心知识产权落地。</li>
+            </ul>
+        </div>
+
+        <!-- 实习经历 -->
+        <h2>实习经历</h2>
+        <div class="work-exp">
+            <h3>2020.06-2020.09 滴滴出行 智能驾驶研发中心 算法实习生</h3>
+            <ul class="exp-desc">
+                <li>调研无人驾驶车辆测试评价体系，提出<strong>多维度无人驾驶车辆评价体系</strong>，完善测试评价标准；</li>
+                <li>基于空间交通图场论，完成自动驾驶换道场景安全与舒适性评价，界定车辆自身安全边界并完成风险评估。</li>
+            </ul>
+
+            <h3>2020.02-2020.05 北京主线科技有限公司 轨迹预测算法实习生</h3>
+            <ul class="exp-desc">
+                <li>调研行为预测与轨迹生成行业技术发展趋势，形成专项研究报告；</li>
+                <li>基于FusionNet框架，利用深度学习提取车道历史轨迹特征，完成自动驾驶车辆轨迹预测模型搭建与验证。</li>
+            </ul>
+        </div>
+
+        <!-- 科研/项目经历 -->
+        <h2>科研/项目经历</h2>
+        <div class="project-exp">
+            <h3>2018.01–2020.01 自动驾驶车辆自适应跟踪控制（国家自然科学基金项目）</h3>
+            <p style="margin-bottom: 8px;">核心贡献：负责路径跟踪优化与车辆状态估计算法研发</p>
+            <ul class="exp-desc">
+                <li>提出自动驾驶车辆路径跟踪优化方法，<span class="highlight">80km/h工况下横向跟踪平均误差≤5cm</span>，满足复杂场景安全行驶需求；</li>
+                <li>实现滚动时域非线性滤波算法的车辆状态联合估计，<span class="highlight">双移线工况下质心侧偏角/横摆角速度估计误差≤5%</span>。</li>
+            </ul>
+
+            <h3>2017.08–2018.02 基于深度学习的道路类型识别（校级科研项目）</h3>
+            <ul class="exp-desc">
+                <li>基于IMU传感器与ROS系统采集试验车辆数据，搭建<strong>LSTM网络骨架的路面分类模型</strong>，数据集识别准确率达<span class="highlight">96.8%</span>。</li>
+            </ul>
+
+            <h3>2015.01–2017.01 全线控分布式驱动车辆综合控制（国家自然科学基金项目）</h3>
+            <p style="margin-bottom: 8px;">核心贡献：负责车辆动力学建模与底盘控制方法验证</p>
+            <ul class="exp-desc">
+                <li>基于MATLAB/Simulink搭建<strong>14自由度车辆动力学模型</strong>，稳态响应误差≤<span class="highlight">2.5%</span>；</li>
+                <li>在Simulink/Carsim联合仿真及dSPACE/Autobox半实物仿真平台，验证车辆综合底盘控制方法的有效性。</li>
+            </ul>
+
+            <h3>2016.05–2017.08 新能源车辆的底盘控制算法开发（国防预研项目）</h3>
+            <p style="margin-bottom: 8px;">核心贡献：负责整车控制器开发与底盘系统调试</p>
+            <ul class="exp-desc">
+                <li>制定并调试各控制器及子系统间的CAN通讯传输协议；</li>
+                <li>基于CodeWarrior/Labview在飞思卡尔单片机开发整车控制器，完成<strong>车辆全线控底盘系统功能落地与测试验证</strong>。</li>
+            </ul>
+        </div>
+
+        <!-- 学术成果 -->
+        <h2>学术成果</h2>
+        <div class="academic-exp">
+            <h3>论文发表</h3>
+            <ul class="exp-desc">
+                <li>SCI论文5篇（第一作者3篇）、EI论文9篇（期刊4篇），均发表于车辆工程/智能驾驶领域Top期刊/会议</li>
+                <li style="list-style-type: none; padding-left: 20px;">1. Yong Chen et al. 极端条件下自动驾驶车辆避撞路径跟踪与操纵稳定性控制策略[J]. IEEE Transactions on Vehicular Technology, 2020. (Top期刊, IF=5.379)</li>
+                <li style="list-style-type: none; padding-left: 20px;">2. Yong Chen et al. 四轮毂电机独立驱动电动车操纵稳定性优化控制策略[J]. IEEE Access, 2019. (Top期刊, IF=3.745)</li>
+                <li style="list-style-type: none; padding-left: 20px;">3. Yong Chen et al. 基于AR-LSTM与滚动时域估计的锂电池SOC估计方法[J]. International Journal of Energy Research, 2020. (Top期刊, IF=3.741)</li>
+            </ul>
+
+            <h3>专利布局</h3>
+            <ul class="exp-desc">
+                <li>国家发明专利7项（2项授权），均为智能驾驶/车辆控制核心技术：</li>
+                <li style="list-style-type: none; padding-left: 20px;">1. 基于转矩矢量控制的无人驾驶车安全性与操纵稳定性方法（CN202011639550.X）</li>
+                <li style="list-style-type: none; padding-left: 20px;">2. 用于分布式驱动无人驾驶车辆的路径跟踪优化控制方法（CN202011641346.1）</li>
+                <li style="list-style-type: none; padding-left: 20px;">3. 一种用于无人驾驶车辆的状态预测与估计方法（CN202011631422.0）</li>
+                <li style="list-style-type: none; padding-left: 20px;">4. 其余4项涵盖分布式驱动车辆操纵稳定性、轮毂电机驱动车辆稳定性控制等方向</li>
+            </ul>
+
+            <h3>基金项目</h3>
+            <ul class="exp-desc">
+                <li>全程参与/负责<strong>2项国家自然科学基金项目</strong>申请与结题，涵盖青年科学基金、面上项目，核心研究智能驾驶运动规划、新能源车辆转矩控制等方向。</li>
+            </ul>
+        </div>
+
+        <!-- 实践经历 -->
+        <h2>实践经历</h2>
+        <div class="project-exp">
+            <ul class="exp-desc">
+                <li><strong>2019.09-2019.10</strong> 中国汽车工程学会年会暨展览会（SAECCE2020）：<strong>唯一学生代表</strong>在汽车工程分论坛作无人驾驶关键技术主题报告，投递论文获评<strong>优秀论文（<5%）</strong>；</li>
+                <li><strong>2020.05-2020.10</strong> 中国汽车工程学会越野车分会：完成280篇智能车辆相关论文审稿，参与评选30篇优秀论文，把控论文学术质量；</li>
+                <li><strong>2016.09-2016.10</strong> 第八届国际应用能源大会（ICAC2016）：负责会议现场布置、参会人员注册与会场讲解，完成全程志愿者服务。</li>
+            </ul>
+        </div>
+
+        <!-- 专业技能 -->
+        <h2>专业技能</h2>
+        <div class="skill-exp">
+            <h3>编程语言与开发工具</h3>
+            <ul class="exp-desc">
+                <li>精通C++/Python编程语言；熟练使用Pycharm/VScode/CodeWarrior、MATLAB/CarSim/AMESim/LabView等开发与仿真工具；</li>
+            </ul>
+
+            <h3>算法与框架</h3>
+            <ul class="exp-desc">
+                <li>熟悉Pytorch深度学习框架，可独立完成模型搭建与训练；精通智能驾驶运动规划、轨迹预测、大模型评测/部署算法；掌握联合仿真、半实物仿真平台搭建与调试；</li>
+            </ul>
+
+            <h3>其他能力</h3>
+            <ul class="exp-desc">
+                <li>具备全流程项目管理能力，可协调跨部门资源推进项目落地；精通智能驾驶数据生产、质检与优化流程；具备专利申请与学术论文撰写能力。</li>
+            </ul>
+        </div>
+
+        <!-- 荣誉奖励 -->
+        <h2>荣誉奖励</h2>
+        <div class="honor-exp">
+            <ul class="exp-desc">
+                <li>校级荣誉：校级优秀研究生（3次）、校级优秀学生（1次）；</li>
+                <li>奖学金：研究生特等奖学金（2次）、一等奖学金（2次）、二等奖学金（2次）；</li>
+                <li>竞赛奖励：北京理工大学第一届“创意紫竹”机械设备创意大赛三等奖；北京理工大学第17、18届“世纪杯”大学生创业竞赛铜奖。</li>
+            </ul>
+        </div>
+
+        <!-- 自我评价 -->
+        <h2>自我评价</h2>
+        <div class="self-eval">
+            <ul class="exp-desc">
+                <li>拥有<strong>机械工程博士学历</strong>+<strong>华为车BU3年智能驾驶实战经验</strong>，深耕智驾大模型与运动规划两大核心领域，兼具扎实的理论研究能力与丰富的工程落地经验；</li>
+                <li>熟练掌握智驾大模型评测、数据优化、车端部署及运动规划算法优化、多车型适配等核心技术，主导完成多项华为核心项目，实现关键性能指标大幅提升，支撑多款车型商用发布；</li>
+                <li>具备优秀的跨部门协调能力、问题解决能力与抗压能力，拥有多项专利与学术成果，可快速胜任智能驾驶算法研发、大模型工程化等挑战性工作，助力产品核心竞争力提升。</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
